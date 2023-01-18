@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f8;
+    font-family: 'Open sans', sans-serif;
+}
+
+.container {
+    /* min-width: 1200px; */
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ 
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.main__title {
+    font-weight: 300;
+}
+
+#createNode {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.nodes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.node {
+    width: 200px;
+    min-height: 300px;
+    background-color: lightyellow;
+    box-shadow: 2px 2px 5px 2px #ccc;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.node h1 {
+    font-size: 15px;
+}
+
+.node p {
+    font-size: 12px;
+}
+
+.node__top {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.node__top button {
+    width: max-content;
+    height: max-content;
+    background-color: #fff;
+    border: 0px;
+    padding: 1px;
+    border-radius: 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#node__text_input {
+    margin-top: 5px;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    outline: none;
+    font-size: 12px;
+    resize: none;
+    padding: 2px;
+
+}
+
+#node__title_input {
+    width: 100px;
+    outline: none;
+    margin-top: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px;
+}
